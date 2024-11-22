@@ -14,11 +14,25 @@
   gap: 10px 30px;
 }
 
-.header-nav-item {
+.header-nav-item a{
   padding: 10px;
 }
 
 .header-logo {
   font-size: 1.5rem;
+  display: block;
   font-weight: 600;
+
+}
+
+@media (max-width: 700px){
+  .header{
+    display: block;
+  }
+  .header-logo{
+    margin-bottom: 20px;
+  }
+  .header-nav-item a:first-child{
+    padding-left: 0;
+  }
 }

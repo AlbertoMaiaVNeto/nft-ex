@@ -60,17 +60,38 @@
   max-width: 500px;
 }
 
-@media (max-width: 1200px) {
-  .intro {
-    padding-top: 20px;
-  }
-}
 
 @media (max-width: 900px) {
   .intro {
     display: block;
   }
+  .intro-img{
+    position: relative;
+    left: 200px;
+  }
+
   .intro-img-content {
-    max-width: 400px;
+    max-width: 300px;
+  }
+  .content-button{
+    margin-bottom: 40px;
+  }
+  .intro {
+    padding-top: 20px;
+  }
+}
+
+
+@media (max-width: 600px){
+  .content-tittle{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .content-span{
+    margin-bottom: 0;
+    font-size: .9rem;
+  }
+  .intro-img{
+    position: initial;
   }
 }
