@@ -1,0 +1,7 @@
+/* Header */
+@import "./css/header.css";
+@import "./css/intro.css";
+
+/* Utilitário */
+@import "./css/reset.css";
+@import "./css/general-styles.css";

@@ -1,0 +1,24 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+}
+
+.header-nav-item {
+  padding: 10px;
+}
+
+.header-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
