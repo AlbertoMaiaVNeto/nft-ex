@@ -11,4 +11,6 @@ body {
     rgb(69, 25, 99) 100%
   );
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
